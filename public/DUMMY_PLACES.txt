@@ -1,0 +1,75 @@
+   const USERS = 
+    [
+        {
+            id: 'u5' , name: 'Mirza Tension Baig' , places : '2' , image : i5
+        },
+        {
+            id: 'u2' , name: 'Waseem Thanda' , places : '1' , image : i2
+        },
+        {
+            id: 'u1' , name: 'Abdullah Sandral' , places : '2' , image : i1
+        },
+        {
+            id: 'u4' , name: 'Khoto G' , places : '2' , image : i4
+        },
+        {
+            id: 'u3' , name: 'Hammad Sharull' , places : '2' , image : i3
+        },
+        
+    ]
+
+
+
+
+
+
+
+
+
+    const placesData = 
+    [
+       {
+            id : 'p1',      title : 'FAISAL MASJID',            address : 'Islamabad, ICT, Pakistan',
+            desc : 'Faisal Masjid is located in Islamabad Pakistan Capital.' ,
+            creator : 'u1' ,    coord : {   lat : 11 , lng : 22} ,      
+        } ,
+        {
+            id : 'p2',      title : 'Farere Hall',                  address : 'Karachi, Sindh, Pakistan',
+            desc : 'Farere Hall is located in Karachi Pakistan Economic Capital.' ,
+            creator : 'u1' ,        coord : {   lat : 22 , lng : 33} , 
+        } ,
+        {
+            id : 'p3',      title : 'BADSHAHI MASJID',              address : 'Lahore, Punjab, Pakistan',
+            desc : 'Badshai Masjid is located in District Lahore of Punjab.' ,
+            creator : 'u3' ,        coord : {   lat : 99 , lng : 11} , 
+        },
+        {
+            id : 'p4',      title : 'Payee Meadows and Makra Peak', address : 'Kaghan Valley : Mansehra, KPK, Pakistan',
+            desc : 'Payee Meadows and Makra Peak are located in Kaghan valley of Mansehra District of KPK Pakistan.' ,
+            creator : 'u3' ,        coord : {   lat : 22 , lng : 33} , 
+        },{
+            id : 'p5',      title : 'Shahi Qilla',                  address : 'Lahore, Punjab, Pakistan',
+            desc : 'Shahi Qilla is located in Lahore near Baadshahi Masjid.' ,
+            creator : 'u5' ,        coord : {   lat : 19 , lng : 66} , 
+        } ,
+        {
+            id : 'p6',      title : 'Rohtas Fort',                  address : 'Jehlum, Punjab, Pakistan',
+            desc : 'Qila Rohtas is located in Jehlum District of Punjab Province of Pakistan' ,
+            creator : 'u5' ,        coord : {   lat : 61 , lng : 46} , 
+        } ,
+        {
+            id : 'p7',      title : 'Noor Mahal',                   address : 'Bahawalpur, Punjab, Pakistan',
+            desc : 'Noor Mahal is located in District Bahawalpur of Punjab, Pakistan.' ,
+            creator : 'u4' ,        coord : {   lat : 43 , lng : 73} , 
+        },
+        {
+            id : 'p8',      title : 'Bibi Jawindi Tomb',            address : 'Uch Sharif, South Punjab, Pakistan',
+            desc : 'Bibi Jawindi Tomb is located in Janoobi Punjab of Punjab Province of Pakistan.' ,
+            creator : 'u4' ,        coord : {   lat : 44 , lng : 33} , 
+        },
+        {
+            id : 'p9',      title : 'Phandar Valley',               address : 'Ghizer, Gilgit Baltistan, Pakistan',
+            desc : 'Phandar Valley is located in Ghizer District of Gilgit Division in Northern areas of Pakistan.' ,
+            creator : 'u2' ,        coord : {   lat : 16 , lng : 93} , 
+        }
+]

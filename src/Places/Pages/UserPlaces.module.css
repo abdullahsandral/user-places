@@ -1,0 +1,30 @@
+.center {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding: 0rem ;
+}
+.spinnerCenter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding: 2rem 0.5rem;
+}
+.spinnerCenter h2
+{
+    color: gold;
+}
+@media(max-width:770px)
+{
+    .center 
+    {
+      justify-content: center;
+    }
+}

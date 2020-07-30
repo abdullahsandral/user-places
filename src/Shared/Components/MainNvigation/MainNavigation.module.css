@@ -1,0 +1,56 @@
+.menuBtn
+{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background: transparent;
+    padding: 0;
+    justify-content: center;
+}
+
+.menuBtn span
+{
+    height: .3rem;
+    width: 2.7rem;
+    margin: .2rem;
+    background-color: aliceblue;
+}
+.mainNavTitle a
+{
+    text-decoration: none;
+    color: #ffff0073;
+}
+.mainNavTitle a:hover
+{
+    text-decoration: none;
+    color: #ffff00e0;
+}
+.mainNavTitle img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.mainNavTitle img:hover
+{
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+}
+@media (min-width: 770px)
+{
+    .menuBtn
+    {
+        display: none;
+    }
+}
+@media (max-width: 770px)
+{
+    .navLinks
+    {
+        display: none;
+    }
+    
+}

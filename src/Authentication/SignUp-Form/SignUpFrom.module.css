@@ -1,0 +1,38 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.signUpMainForm
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #046e6e;
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 1rem;
+    color: #353232;
+  }
+.signUpMainForm input , .signUpMainForm label
+{
+    display: block;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin: 0;
+}
+.signUpMainForm input 
+{
+    padding: 10px;
+    margin: 0.5rem 0;
+}
+
+
+ 

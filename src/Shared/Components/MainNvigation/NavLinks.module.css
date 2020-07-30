@@ -1,0 +1,44 @@
+.navLinks
+{
+    display: flex;  
+    align-items: center;
+    margin: 0em;
+    padding: 0;
+}
+.navLink
+{
+    margin: 0 0.6rem;
+}
+.navLink a
+{
+    background-color: #d6d629;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: black;
+    display: block;
+    width: 125px;
+    text-align: center;
+    font-weight: 500;
+    border: 2px solid #ffff00;
+}
+.navLink a:hover
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: yellow;
+    border: 3px solid black;
+}
+
+@media (max-width : 768px)
+{
+    .navLinks
+{
+    display: flex;
+    flex-direction: column; 
+}
+.navLink
+{
+    margin: 1rem auto;
+}
+}
