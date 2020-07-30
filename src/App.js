@@ -55,26 +55,26 @@ const App = () => {
   }, [LOGIN]);
 
 
-  const promiseCreator = time => {
-    return new Promise((res, rej) => {
-      setTimeout(() => {
+  // const promiseCreator = time => {
+  //   return new Promise((res, rej) => {
+  //     setTimeout(() => {
 
-        res('Promise Resolved : ' + time)
-      }, time)
+  //       res('Promise Resolved : ' + time)
+  //     }, time)
 
-    })
-  }
+  //   })
+  // }
 
-  (async () => {
-    const time1 = await promiseCreator(1000)
-    console.log(time1);
-    const time2 = await promiseCreator(4000)
-    console.log(time2);
-    const time3 = await promiseCreator(5000)
-    console.log(time3);
-    const time4 = await promiseCreator(1000)
-    console.log(time4);
-  })()
+  // (async () => {
+  //   const time1 = await promiseCreator(1000)
+  //   console.log(time1);
+  //   const time2 = await promiseCreator(4000)
+  //   console.log(time2);
+  //   const time3 = await promiseCreator(5000)
+  //   console.log(time3);
+  //   const time4 = await promiseCreator(1000)
+  //   console.log(time4);
+  // })()
 
 
 
